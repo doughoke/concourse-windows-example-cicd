@@ -12,6 +12,6 @@ echo "...build ended..."
 pwd
 
 echo "...test commencing..."
-dotnet.exe test DatDotNet.csproj --configuration Release --no-build -v n
+dotnet.exe test DatDotNet\DatDotNet.csproj --configuration Release --no-build -v n
 if %errorlevel% neq 0 exit /b %errorlevel%
 echo "...test ended..."
