@@ -7,5 +7,5 @@ msbuild -p:Configuration=Release ^
         -p:WarningLevel=0
 if %errorlevel% neq 0 exit /b %errorlevel%
 
-dotnet.exe test TestProject.csproj --configuration Release --no-build -v n
+dotnet.exe test DatDotNet.csproj --configuration Release --no-build -v n
 if %errorlevel% neq 0 exit /b %errorlevel%

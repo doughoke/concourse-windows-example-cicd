@@ -18,7 +18,7 @@ jobs:
         outputs:
           - name: output
         run:
-          path: runDockerImage.bat
+          path: code/runDockerImage.bat
         params:
           DOCKER_IMAGE: mcr.microsoft.com/dotnet/framework/sdk:4.7.2
           WORKING_DIRECTORY: code
